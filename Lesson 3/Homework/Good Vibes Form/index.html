@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<header>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title>Good Vibes Form</title>
+</header>
+
+<body>
+  <main>
+    
+    <h1 id="title">Good Vibes Form</h1>
+
+    <div class="master-div-style">
+      <div>
+        <p>Tell us something good that happened today.</p>
+      </div>
+      <div>
+
+        <!--------------------------------------------FORM BEGIN------------------->
+        <form action="results.html" method="GET" id="goodVibesForm">
+          <div>
+            <label class="labels" id="formName" for="formName">Name</label>
+            <input class="input-fields" type="text" name="formName" placeholder="Enter your name (required)" required>
+          </div>
+          <br>
+
+          <div>
+            <label class="labels" id="formEmail" for="formEmail">Email</label>
+            <input class="input-fields" type="email" name="formEmail" id=formEmail"
+              placeholder="Enter your email (required)" required>
+          </div>
+          <br>
+
+
+          <div>
+            <label class="labels" id="goodyRating" for="goodyRating">On a scale of 1-10, how good was it?</label>
+            <input class="input-fields" type="number" name="goodyRating" placeholder="Enter a number between 1-10"
+              min="1" max="10" step="1">
+          </div>
+          <br>
+
+          <div>
+            <label class="labels" id="whenDo" for="whenDo">Where did it happen?</label>
+            <select class="input-fields dropdown" type="select" name="whenDo">
+              <option>At home</option>
+              <option>Outside</option>
+              <option>Daydreaming</option>
+            </select>
+          </div>
+          <br>
+
+          <div>
+            <label class="labels" id="whatDate" for="whatDate">What was the date?</label>
+            <input class="input-fields" type="date" name="whatDate">
+          </div>
+          <br>
+
+          <div>
+            <label class="labels" id="exactTime" for="exactTime">Do you remember the exact time?</label>
+            <input class="input-fields" type="time" name="exactTime">
+          </div>
+          <br>
+
+          <div>
+            <div class="labels">
+              <label id="whatTime" for="whatTime">At what time of day did it happen?</label>
+            </div>
+            <div class="fields">
+              <div>
+                <input class="radio" type="radio" name="whatTime" value="morning"> <span>Morning</span>
+              </div>
+              <div>
+                <input class="radio" type="radio" name="whatTime" value="afternoon"> <span>Afternoon</span>
+              </div>
+              <div>
+                <input class="radio" type="radio" name="whatTime" value="evening"> <span>Evening</span>
+              </div>
+            </div>
+            <br>
+            <br>
+
+            <div>
+              <div class="labels">
+                <label id="whatEmosh" for="whatEmosh">What emotions did you exerience?<br>(select all that
+                  apply)</label>
+              </div>
+              <div class="fields">
+                <div>
+                  <input type="checkbox" name="excited" value="excited" id="excited"> <span>Excited</span>
+                </div>
+                <div>
+                  <input type="checkbox" name="excited" value="humbled" id="humbled"> <span>Humbled</span>
+                </div>
+                <div>
+                  <input type="checkbox" name="elated" value="elated" id="elated"> <span>Elated</span>
+                </div>
+                <div>
+                  <input type="checkbox" name="loved" value="loved" id="loved"> <span>Loved</span>
+                </div>
+                <div>
+                  <input type="checkbox" name="enthusiastic" value="enthusiastic" id="enthusiastic">
+                  <span>Enthusiastic</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+
+          <div>
+            <label class="labels" id="describeThePlus" for="describeThePlus">Please describe your positive
+              experience.</label>
+            <textarea name="describeThePlus" id="describeThePlus"
+              class="input-fields">Enter your experience here...</textarea>
+            </label>
+          </div>
+        <!--------------------------------------------FINAL BUTTONS------------------->
+          <button type="reset" class="button">Reset</button>
+          <button type="submit" class="button">Submit</button>
+        </form>
+        <!--------------------------------------------END FORM------------------->
+      </div>
+    </div>
+
+  </main>
+</body>
+
+</html>

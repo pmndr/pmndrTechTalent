@@ -1,0 +1,203 @@
+/******************GENERAL STYLING**********************************************/
+body {
+  background-color: #fcf9f0;
+  font-family: "Quicksand", sans-serif;
+  color: saddlebrown;
+  font-size: 15px;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: "Sanchez", serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  max-height: auto;
+}
+
+td {
+  vertical-align: top;
+  font-family: "Quicksand", sans-serif;
+  color: saddlebrown;
+  font-size: 15px;
+  padding: 10px;
+  text-align: justify;
+}
+
+a {
+  font-family: "Quicksand", sans-serif;
+  color: peru;
+  font-size: 15px;
+}
+
+a:hover {
+  font-weight: bolder;
+}
+
+/******************NAVIGATION BAR STYLING**********************************************/
+#navbar {
+  border: 1px solid saddlebrown;
+  background-color: saddlebrown;
+  text-align: center;
+  position: sticky;
+  width: 100%;
+  height: 100px;
+  font-family: sanchez;
+}
+
+.navlinks {
+  width: 150px;
+}
+
+.navlinks a {
+  font-size: 20px;
+  color: burlywood;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-decoration: none;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.navlinks a:hover {
+  background-color: peru;
+}
+
+/******************FOOTER STYLING**********************************************/
+
+h3 {
+  font-size: 15px;
+  padding: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 2.7;
+  letter-spacing: 0.8px;
+  display: inline-flex;
+  align-self: center;
+}
+
+h3 a {
+  text-decoration: none;
+  color: saddlebrown;
+}
+
+/******************LANDING PAGE STYLING**********************************************/
+
+.breadyContent {
+  width: 50%;
+  height: auto;
+  padding: 50px;
+  border: 1px solid burlywood;
+  background-color: burlywood;
+}
+.landingBready {
+  background-image: url("./images/miti-R1ql7fk3I1Y-unsplash.jpg");
+  background-repeat: none;
+  width: auto;
+  height: 750px;
+  opacity: 1;
+  font-family: quicksand, sans-serif;
+  color: rgb(245, 228, 198);
+  text-align: left;
+  font-size: 40px;
+  padding: 50px;
+}
+
+/******************MAIN CONTACT PAGE STYLING**********************************************/
+
+.breadyWhenUR {
+  font-size: 15px;
+  padding: 50px;
+  margin: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.form {
+  width: 100px;
+  margin-left: 25px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea,
+input[type="submit"] {
+  font-family: quicksand, sans-serif;
+}
+
+/************************** PRODUCT GALLERY GRID *************************************/
+.product {
+  display: grid;
+  width: 510px;
+  grid-template-columns: 250px 250px;
+  grid-template-rows: 250px 250px;
+  gap: 10px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "bread1 bread2"
+    "bread3 bread4";
+}
+
+.bread1 {
+  grid-area: bread1;
+}
+
+.bread2 {
+  grid-area: bread2;
+}
+
+.bread3 {
+  grid-area: bread3;
+}
+
+.bread4 {
+  grid-area: bread4;
+}
+
+.productBread {
+  opacity: 0.5;
+  transition: 0.5s;
+  display: block;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  z-index: 1;
+}
+
+.productBread {
+  opacity: 0;
+  display: flex;
+  background-color: burlywood;
+  align-items: center;
+  justify-content: center;
+  font-family: "Sanchez", serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.productBread:hover {
+  opacity: 1;
+}
+
+.tastyBread1 {
+  background-image: url("./productGallery/bread1.jpg");
+}
+
+.tastyBread2 {
+  background-image: url("./productGallery/bread2.jpg");
+}
+
+.tastyBread3 {
+  background-image: url("./productGallery/bread3.jpg");
+}
+
+.tastyBread4 {
+  background-image: url("./productGallery/bread4.jpg");
+}

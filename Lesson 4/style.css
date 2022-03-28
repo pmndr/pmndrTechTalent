@@ -1,0 +1,35 @@
+body {
+  background-color: lightgrey;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Fredoka One", cursive;
+}
+
+.favourite {
+  background-color: grey;
+  color: black;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 5px;
+  font-family: monospace;
+  width: 50%;
+  position: relative;
+  left: 25%;
+}
+
+.subheading {
+  background-color: rgb(229, 230, 215);
+  color: black;
+  border: 2px solid black;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  font-family: "Fredoka One", cursive;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}

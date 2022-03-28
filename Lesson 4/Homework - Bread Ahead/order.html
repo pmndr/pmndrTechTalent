@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet" />
+    <title>
+        Bread Ahead | Artisinal Baked Goods From The Heart Of The West Midlands
+    </title>
+</head>
+
+<body>
+    <!--------------- BREAD AHEAD LOGO ----------------------------------------------------->
+
+    <header>
+        <div id="frntPgLogo" align="center">
+            <img src="./logoBg.png" height="250px" width="auto" alt="Bread Ahead Logo" />
+        </div>
+
+        <!--------------- NAVIGATION BAR START --------------------------------------------->
+        <table id="navbar">
+            <tbody>
+                <tr>
+                    <td class="navlinks"><a href="index.html">Home</a></td>
+                    <td class="navlinks"><a href="ourstory.html">Our Story</a></td>
+                    <td class="navlinks"><a href="products.html">Our Products</a></td>
+                    <td class="navlinks"><a href="order.html">Order</a></td>
+                    <td class="navlinks"><a href="contact.html">Contact</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </header>
+    <!--------------- NAVIGATION BAR END -------------------------------------------------->
+
+    <!--------------- MAIN BODY ------------------------------------------------------------>
+    <main>
+        <h1>Order</h1>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+    <!---------------ORDER FORM START ------------------------------------------------------------>
+                        <div id="orderForm">
+                            <form action="orderform.html" method="GET">
+                                <div class="form">
+                                    <label for="orderName">Name*</label>
+                                    <input type="text" id="orderName" name="orderName" placeholder="Your name..."
+                                        required>
+                                </div><br>
+                                <div class="form">
+                                    <label for="orderEail">Email*</label>
+                                    <input type="email" id="orderEmail" name="orderEmail" placeholder="Your email..."
+                                        required>
+                                </div><br>
+                                <div class="form">
+                                    <label for="orderPhone">Phone Number*</label>
+                                    <input type="tel" name="orderPhone" id="orderPhone"
+                                        placeholder="Your number (in case of queries)..." required>
+                                </div><br>
+                                <div class="form">
+                                    <label for="orderDate">Collection Date*</span></label>
+                                    <input type="date" name="orderDate" id="orderDate" required>
+                                </div><br>
+                                <div class="form">
+                                    <label for="orderBreadLoaf"># Bread Loaves</label>
+                                    <input type="number" name="orderBreadLoaf" max="50" step="1" id="orderBreadLoaf">
+                                </div><br>
+                                <div class="form">
+                                    <label for="orderRyeLoaf"># Rye Loaves</label>
+                                    <input type="number" name="orderRyeLoaf" max="50" step="1" id="orderRyeLoaf">
+                                </div><br>
+                                <div class="form">
+                                    <label for="orderSourdough"># Sourdough Loaves</label>
+                                    <input type="number" name="orderSourdough" max="50" step="1" id="orderSourdough">
+                                </div><br>
+                                <div class="form">
+                                    <label for="orderPumpernickel"># Pumpernickel</label>
+                                    <input type="number" name="orderPumpernickel" max="50" step="1"
+                                        id="orderPumpernickel">
+                                </div><Br>
+                                <div class="form">
+                                    <label for="orderAllergies">Any allergies?*</label>
+                                    <input type="text" name="orderAllergies" value="None" id="orderAllergies" required>
+                                </div><br>
+                                <div class="form">
+                                    <label for="orderComments">Anything else?</label>
+                                    <textarea type="textarea" name="orderComments" id="orderComments"></textarea>
+                                </div>
+                                <br>
+                                <div class="form">
+                                    <input type="submit" value="Submit">
+                                </div>
+
+                            </form>
+
+    <!--------------- ORDER FORM END ------------------------------------------------------------>
+                        </div>
+
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </main>
+
+    <!--------------- FOOTER ETC ---------------------------------------------------------->
+    <footer align="center">
+        <h3><a href="contact.html">Contact</a></h3>
+        <h3><a href="#">Privacy Policy</a></h3>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+{
+    "editor.autoClosingBrackets": "beforeWhitespace",
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on",
+    "editor.autoClosingQuotes": "beforeWhitespace",
+    "editor.autoSurround": "quotes",
+    "editor.bracketPairColorization.enabled": true
+}

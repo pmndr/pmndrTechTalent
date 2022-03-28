@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <title>
+      Bread Ahead | Artisinal Baked Goods From The Heart Of The West Midlands
+    </title>
+  </head>
+
+  <body>
+    <!--------------- BREAD AHEAD LOGO ----------------------------------------------------->
+
+    <header>
+      <div id="frntPgLogo" align="center">
+        <img
+          src="./logoBg.png"
+          height="250px"
+          width="auto"
+          alt="Bread Ahead Logo"
+        />
+      </div>
+
+      <!--------------- NAVIGATION BAR START --------------------------------------------->
+      <table id="navbar">
+        <tbody>
+          <tr>
+            <td class="navlinks"><a href="index.html">Home</a></td>
+            <td class="navlinks"><a href="ourstory.html">Our Story</a></td>
+            <td class="navlinks"><a href="products.html">Our Products</a></td>
+            <td class="navlinks"><a href="order.html">Order</a></td>
+            <td class="navlinks"><a href="contact.html">Contact</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </header>
+    <!--------------- NAVIGATION BAR END -------------------------------------------------->
+
+    <!--------------- MAIN BODY ------------------------------------------------------------>
+    <main>
+      <table class="breadyWhenUR">
+        <tr>
+          <td width="50%">
+            <!--------------- CONTACT DETAILS ------------------------------------------------------------>
+            <h1>Contact Us</h1>
+            <p>
+              Bread Ahead is dedicated to 100% customer satisfaction. If you
+              have any questions, comments or concerns, please contact us using
+              the form on the right, or in the following ways:
+            </p>
+            <p>
+              <strong>Phone:</strong> 0121 X01 X1X0<br />
+              <strong>Email:</strong>
+              <a href="mailto:info@breadahead.com" target="_blank"
+                >info@breadahead.com</a
+              ><br /><br />
+              <a href="#" target="_blank">Instagram</a><span> | </span>
+              <a href="#" target="_blank">Facebook</a><span> | </span>
+              <a href="#" target="_blank">Twitter</a>
+            </p>
+          </td>
+
+          <!------------- CONTACT US FORM START ----------------------------------------->
+          <td width="50%" style="border-left: 1px solid saddlebrown">
+            <div id="contactForm">
+              <form action="contactus.html" method="GET">
+                <div class="form">
+                  <label for="fname">Name*</label>
+                  <input
+                    type="text"
+                    id="fname"
+                    name="firstname"
+                    placeholder="Your name..."
+                    required
+                  />
+                </div>
+                <br />
+                <div class="form">
+                  <label for="femail">Email*</label>
+                  <input
+                    type="email"
+                    id="femail"
+                    name="email"
+                    placeholder="Your email..."
+                    required
+                  />
+                </div>
+                <br />
+                <div class="form">
+                  <label for="subject">Message*</label>
+                  <textarea
+                    id="subject"
+                    name="subject"
+                    placeholder="Your message"
+                    style="height: 150px; width: 250px"
+                    required
+                  ></textarea>
+                </div>
+                <br />
+                <div class="form">
+                  <input type="submit" value="Submit" />
+                </div>
+              </form>
+            </div>
+          </td>
+          <!------------- CONTACT US FORM END ----------------------------------------->
+        </tr>
+      </table>
+    </main>
+
+    <!--------------- FOOTER ETC ---------------------------------------------------------->
+    <footer align="center">
+      <h3><a href="contact.html">Contact</a></h3>
+      <h3><a href="#">Privacy Policy</a></h3>
+    </footer>
+  </body>
+</html>
