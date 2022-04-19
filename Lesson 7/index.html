@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Hello World</h1>
+  <p id="samplePara">Lorem ipsum blah blah blah</p>
+  <input type="button" value="change font colour" id="colourButton" onclick ="changeFontCol()"/>
+  <br>
+  <input type="button" value="change font decoration" id="fontDec" onclick="changeFontDec()"/>
+  <br>
+  <input type="button" value="change font style" id="fontChange" onclick="changeFontStyle()"/>
+<br>
+<br>
+<div id="contactForm">
+  <form action="contactus.html" method="GET">
+    <div>
+      <label for="fname">First Name*</label><br>
+      <input
+        type="text"
+        id="fname"
+        name="fname"
+        placeholder="First name..."
+        required
+      />
+    </div>
+    <br />
+    <div>
+      <label for="lname">Last Name*</label><br>
+      <input
+        type="text"
+        id="lname"
+        name="lname"
+        placeholder="Last name..."
+        required
+      />
+    </div>
+    <br />
+    <div>
+      <label for="femail">Email*</label><br>
+      <input
+        type="email"
+        id="femail"
+        name="femail"
+        placeholder="Your email..."
+        required
+      />
+
+                <input type="submit" name="submit" value="Submit" onclick="checkForm()"/>
+    </div>
+    <br />
+    <br />
+    <div>
+      <input type="radio" name="collectionAge" value="£4.81" id="16to17" checked><label for="collectionAge">16-17</label><br>
+      <input type="radio" name="collectionAge" value="£6.83" id="18to20"><label for="collectionAge">18-20</label><br>
+      <input type="radio" name="collectionAge" value="£9.18" id="21to22"><label for="collectionAge">21-22</label><br>
+      <input type="radio" name="collectionAge" value="£9.50" id="23plus"><label for="collectionAge">23+</label><br>
+
+
+
+    </div>
+  </form>
+</div>
+
+<br><br>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>

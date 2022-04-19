@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <title>► The Blog</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!----Navigation Bar----->
+  <div class="topnav" id="myTopnav">
+    <div class="webTitle">► The Blog</div>
+    <div>
+      <a href="#" onclick="darkMode()">Dark Mode</a>
+      <a href="contact.html">Contact</a>
+      <a href="index.html">Home</a>
+    </div>
+  </div>
+
+  <!----Main Blog----->
+  <div class="blog">
+    <div class="blogContent">
+      <div class="blogSection">
+        <div class="blogEntry">
+          <!----Space for new entries---->
+          <div>
+            <span id="newTitle"></span><br>
+            <span id="newAuthor"></span><br>
+            <span id="newEntry"></span><br>
+          </div>
+          <!----Dummy Blog Post----->
+          <h1>The IT Crowd Ipsum - it's a shame Glinner is a TERF, I used to love IT Crowd.</h1>
+          <h3>by Person McPersonface</h3>
+          <div align="center">
+            <img
+              src="https://images.unsplash.com/photo-1604782206219-3b9576575203?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=397&q=80"
+              alt="a minimalist picture from unsplash" title="a minimalist picture from unsplash" />
+          </div>
+          <p>
+            Hello? I've had a bit of a tumble. They just toss us away like yesterday's jam. Yeah, you do know how a
+            button works don't you? No, not on clothes. It's my term for my time of the month. Oh. What time of the
+            month? The weekend? I am a man, he's a man, we're men! Ok, tell me how your feeling. I feel delicate... and
+            annoyed, and... I think I'm ugly. Hello, IT. Have you tried forcing an unexpected reboot?
+          </p>
+          <p>
+            Oh my God. I didn't even know Smarties made a cereal. They don't. It's just Smarties in a bowl with milk.
+            I've got Aunt Irma visiting. Oh, do you not like Aunt Irma? I've got an aunt like that. Graphic
+            homoeroticism? Does that mean they're going to get them out? When I started Reynholm Industries, I had just
+            two things in my possession: a dream and 6 million pounds. Today I have a business empire the like of which
+            the world has never seen the like of which. I hope it doesn't sound arrogant when I say that I am the
+            greatest man in the world! Hello, IT. Have you tried forcing an unexpected reboot?
+          </p>
+          <p>
+            I'm a 32 year old IT-man who works in a basement. Yes, I do the whole Lonely Hearts thing! How long have you
+            been disabled? Ten years? Ten years, and how did it happen? If that's not a rude question. Acid? OK. Moss,
+            what did you have for breakfast this morning? Smarties cereal. Nicer ambulances, faster response times and
+            better looking drivers mean they're not just the Emergency Services, they're your Emergency Services. When I
+            started Reynholm Industries, I had just two things in my possession: a dream and 6 million pounds.
+          </p>
+        </div>
+
+      </div>
+      <!----Side bar for submission form----->
+      <div class="asideSection">
+        <div class="blogEntry">
+          <h1>Add your own entry</h1>
+
+
+          <div>
+            <!----Form for blog submissions----->
+            <form id="submissionForm" action="/" method="GET" onsubmit="return validateForm()">
+              <div>
+                <label for="entryName">Entry Name*</label><br>
+                <input id="entryName" name="entryName" type="text" class="blogForm"><br>
+                <label for="authorName">Author Name*</label><br>
+                <input id="authorName" name="authorName" type="text" class="blogForm"><br>
+                <label for="blogContent">Blog Content*</label><br>
+                <textarea id="blogContent" name="blogContent" class="blogForm" style="height: 150px"></textarea><br>
+
+                <input type="submit" id="submitBtn" style="border: 1px black solid; background-color: beige"
+                  onclick="submitForm()"></input>
+              </div>
+
+            </form>
+
+          </div>
+
+
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+  <!----Footer----->
+  <footer>Terms & Conditions | Some Other Stuff | &copy; pmndr 2022</footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

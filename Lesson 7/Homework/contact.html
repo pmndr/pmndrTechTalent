@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <title>► The Blog</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!----Navigation Bar----->
+  <div class="topnav" id="myTopnav">
+    <div class="webTitle">► The Blog</div>
+    <div>
+      <a href="#" onclick="darkMode()">Dark Mode</a>
+      <a href="contact.html">Contact</a>
+      <a href="index.html">Home</a>
+    </div>
+  </div>
+
+  <!----Main Blog----->
+  <div class="blog">
+    <div class="blogContent">
+      <div class="blogSection">
+        <div class="blogEntry">
+          <!----Contact form----->
+          <form id="contactForm" action="mailto:example@email.com" method="POST">
+            <div>
+              <label for="contactName">Full Name*</label><br>
+              <input id="contactName" name="contactName" type="text" class="blogForm" required><br>
+              <label for="contactSubject">Email Subject*</label><br>
+              <input id="contactSubject" name="contactSubject" type="text" class="blogForm" required><br>
+              <label for="contactEmail">Email*</label><br>
+              <input id="contactEmail" name="contactEmail" type="email" class="blogForm" required><br>
+              <label for="contactMsg">Message*</label><br>
+              <textarea id="contactMsg" name="contactMsg" class="blogForm" style="height: 150px;"
+                required></textarea><br>
+
+              <input type="submit" id="submitBtn" />
+          </form>
+        </div>
+        </div>
+        <!----Blank, kept for layout work----->
+        <div class="asideSection">
+          <div class="blogEntry">
+            <div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----Footer----->
+    <footer>Terms & Conditions | Some Other Stuff | &copy; pmndr 2022</footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

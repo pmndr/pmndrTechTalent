@@ -1,0 +1,131 @@
+/***GENERAL STYLING***/
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
+  color: #37371f;
+  font-size: 12px;
+  margin: 50px 150px 50px 150px;
+}
+
+a {
+  color: #697041;
+  font-weight: bolder;
+}
+
+a:hover {
+  color: #90be6d;
+}
+
+h1 {
+  font-family: "Square Peg", cursive;
+  font-size: 20pt;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 12pt;
+}
+
+img {
+  border-radius: 50%;
+  height: auto;
+  width: 200px;
+}
+
+.blogForm {
+  text-align: left;
+  border: 1px black solid;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+}
+
+footer {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 15px;
+  margin: 15px;
+}
+/**/
+/**/
+/**/
+
+/***DARK MODE***/
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+/**/
+/**/
+/**/
+
+/***NAVIGATION BAR STYLING***/
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #90be6d;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.topnav a:hover {
+  color: #86af49;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.webTitle {
+  display: block;
+  padding: 10px 10px;
+  float: left;
+  font-family: "Square Peg", cursive;
+  font-size: 25pt;
+}
+
+
+/**/
+/**/
+/**/
+
+/***Grid Styling***/
+
+.blog {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "blogContent";
+}
+
+.blogContent {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+  grid-template-rows: 1fr;
+  gap: 25px 25px;
+  grid-auto-flow: row;
+  justify-content: start;
+  align-content: start;
+  grid-template-areas: "blogSection asideSection";
+  grid-area: blogContent;
+}
+
+.blogSection {
+  grid-area: blogSection;
+}
+
+.asideSection {
+  grid-area: asideSection;
+}
