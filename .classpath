@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Lesson 10/springy/src/main/java"/>
+	<classpathentry kind="src" path="Lesson 10/springy/src/test/java"/>
+	<classpathentry kind="src" path="Lesson 12/jUnitTest/jUnitTest/src"/>
+	<classpathentry kind="src" path="Lesson 9/src"/>
+	<classpathentry kind="lib" path="Lesson 10/springy/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="output" path="Lesson 10/springy/target/classes"/>
+</classpath>

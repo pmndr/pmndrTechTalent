@@ -29,13 +29,13 @@ public class treasureHunt {
 				System.out.println("Choose a direction: N, E, S or W.");
 				direction = scan.nextLine();
 
-				if (direction.equals("N")) {
+				if (direction.equals("E")) {
 					currentX = currentX + 1;
-				} else if (direction.equals("S")) {
-					currentX = currentX - 1;
-				} else if (direction.equals("E")) {
-					currentY = currentY + 1;
 				} else if (direction.equals("W")) {
+					currentX = currentX - 1;
+				} else if (direction.equals("N")) {
+					currentY = currentY + 1;
+				} else if (direction.equals("S")) {
 					currentY = currentY - 1;
 				} else {
 					System.out.println("Choose an actual direction!");
@@ -45,6 +45,7 @@ public class treasureHunt {
 
 			do {
 				System.out.println("You found the treasure!");
+				break;
 			} while (currentX == 5 && currentY == 5);
 
 		}

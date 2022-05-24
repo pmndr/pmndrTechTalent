@@ -1,6 +1,7 @@
+import org.junit.Test;
 
 public class Main {
-
+@Test
 	public static void main(String[] args) {
 
 // Sora
@@ -48,4 +49,11 @@ public class Main {
 		System.out.println("Alive: " + grunt.getAlive());
 			
 	}
+
+public Object goodGuy;
+
+public int goodGuy() {
+	// TODO Auto-generated method stub
+	return goodGuy();
+}
 }
